@@ -1,0 +1,7 @@
+{
+  "name": "LumberJack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
