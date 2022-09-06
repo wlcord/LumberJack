@@ -5,7 +5,8 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },  {
+  },
+  {
     path: 'pellet',
     loadChildren: () => import('./pellet/pellet.module').then( m => m.PelletPageModule)
   }

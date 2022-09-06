@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>pellet</ion-title>
+    <ion-title><h2>Pellet</h2></ion-title>
   </ion-toolbar>
+  
 </ion-header>
-
+<ion-fab [routerLink]="['']" vertical="bottom" horizontal="end" slot="fixed" placeholder="Volver a inicio">
+  <ion-fab-button>
+    <ion-icon name="home"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
 <ion-content>
+  <h1>Pellet ecomas</h1>
+  <h6>Bolsa de 15kg.</h6>
+  <ion-img src="../assets/pellet.jpg" id="pelletE"></ion-img>
+ <div id="info">
+  <p>►Precio:$3.990  c/u.</p>
+  <p>►Alto poder calorico. </p>
+  <p>►Alta calidad. </p>
+  <p>►Producto en stock.</p>
+  </div>
+  <div id="mapa">
+    <br>
+    <h3 color="orange">Lugares donde conseguir este producto</h3>
+    <ion-card><ion-img src="../assets/mapa.png"></ion-img></ion-card>
+    <ion-button expand="block">Ir a la ubicacion</ion-button>
+
+    <br>
+  </div>
 
 </ion-content>

@@ -1,0 +1,25 @@
+
+.md, .ios{
+    --ion-toolbar-background:rgb(228,120,20);
+    --ion-item-border-color:orange;
+}
+ion-content{
+    text-align: center;
+}
+
+#pelletE{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+#info{
+    text-align: center;
+}
+#mapa{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;   
+}
+ion-fab{
+    margin-bottom: 55px;
+}

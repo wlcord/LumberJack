@@ -1,9 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title font-family="impact" ><strong>LumberJack</strong></ion-title>
+    <ion-title font-family="impact" ><strong></strong></ion-title>
   </ion-toolbar>
   
   <ion-toolbar>
+    
     <ion-buttons slot="secondary">
       <ion-button>
         <ion-icon slot="icon-only" name="person-circle"></ion-icon>
@@ -17,108 +18,76 @@
         <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
       </ion-button>
     </ion-buttons>
-    <ion-title>Pellet/Leña</ion-title>
+    
   </ion-toolbar>
 
   
   <ion-toolbar>
-    <ion-segment value="all">
-      <ion-segment-button value="all">
-        Productos
-      </ion-segment-button>
-      <ion-segment-button value="favorites">
-        Favoritos
-      </ion-segment-button>
-    </ion-segment>
+    
   </ion-toolbar>
 
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  
   <ion-header collapse="condense">
     <ion-toolbar >
       <ion-title size="large" ></ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-card id="navinicio">
-    <img src="../assets/pellet.jpg">
+  
+  
+  <ion-card id="inicio">
+    <img src="../assets/icono_lumberjack.jpeg">
     <ion-card-header>
-      <ion-card-subtitle>Bolsa de 15kg.</ion-card-subtitle>
-      <ion-card-title>Pellet ecomas</ion-card-title>
+      <ion-card-subtitle>Desde 2022</ion-card-subtitle>
+      <ion-card-title>Llevando calor al hogar</ion-card-title>
     </ion-card-header>
   
     <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      El invierno aún no termina y el frío pareciera no querer irse, 
+      por lo que estamos constantemente manteniendo el calor en el hogar a través de nuestro servicio.
     </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
+    
   </ion-card>
-  <ion-card id="navinicio">
-    <img src="../assets/lena1.jpg">
+  <ion-card id="pellet">
+    <img src="../assets/pellet2.jpg">
     <ion-card-header>
-      <ion-card-subtitle>Leña por vara.</ion-card-subtitle>
-      <ion-card-title>Leña seca</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title> Calefacción a Pellet</ion-card-title>
     </ion-card-header>
   
     <ion-card-content>
-      Se vende leña por vara, esta completamente seca,
-      se usa la vara reglamentaria.
+      
+El pellet es una de las mejores opciones para calefacción dentro de Santiago y para aquellos usuarios que buscan más comodidad. 
+
+Ya conocemos que la leña tiene limitaciones de restricciones en varias comunas de la Región Metropolitana y también hay restricciones a 
+los humos visibles en otras ciudades por lo que el usuario debe ser responsable y utilizar 
+bien su estufa sin ahogarla para no emitir humos visibles. 
     </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
-  </ion-card>
-  <ion-card id="navinicio">
-    <img src="../assets/PELLET-RIO-CLARO.webp">
-    <ion-card-header>
-      <ion-card-subtitle>Bolsa de 15kg.</ion-card-subtitle>
-      <ion-card-title>Pellet Rio Claro</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
-  </ion-card>
-  <ion-card id="navinicio">
-    <img src="../assets/lena2.jpg">
-    <ion-card-header>
-      <ion-card-subtitle>Bolsa de 15kg.</ion-card-subtitle>
-      <ion-card-title>Pellet ecomas</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
-  </ion-card>
-  <ion-card id="navinicio">
-    <img src="../assets/pelletbosca.webp">
-    <ion-card-header>
-      <ion-card-subtitle>Bolsa de 15kg.</ion-card-subtitle>
-      <ion-card-title>Pellet ecomas</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
+    <button ion-button icon-left class="botones"><ion-icon name="heart-outline"></ion-icon>Me gusta</button>
+    
   </ion-card>
 
-  <ion-card id="navinicio">
-    <img src="../assets/lena3.jpg">
+  <ion-card id="leña">
+    <img src="../assets/leña2.jpg">
     <ion-card-header>
-      <ion-card-subtitle>Bolsa de 15kg.</ion-card-subtitle>
-      <ion-card-title>Pellet ecomas</ion-card-title>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Calefacción a leña</ion-card-title>
     </ion-card-header>
   
     <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
+      La leña sigue siendo una opción muy recomendable y, al igual que el pellet, no emite residuos de la combustión al interior 
+      de los hogares, por lo que disminuye los riesgos de problemas a la salud por contaminación intradomiciliaria.
     </ion-card-content>
-    <button ion-button icon-left class="botones"><ion-icon name="star"></ion-icon>Favoritos</button>
+    <button ion-button icon-left class="botones"><ion-icon name="heart-outline"></ion-icon>Me gusta</button>
+    
   </ion-card>
+  
+  
+
+  
 
   
 </ion-content>
