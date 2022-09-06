@@ -10,8 +10,13 @@ ion-title{
     text-align: center;
 }
 #navinicio{
-    background-color: rgba(235, 144, 8, 0.767);
+    background-color: rgb(136, 70, 59);
 }
 .botones{
     padding: 5%;
+}
+
+.md, .ios{
+    --ion-toolbar-background:orange;
+    --ion-item-border-color:orange;
 }
