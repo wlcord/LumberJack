@@ -1,17 +1,101 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
+    <ion-title slot="end">
+      LumberJack
     </ion-title>
+    <ion-chip slot="end" color="dark"><ion-icon name="exit"></ion-icon></ion-chip>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-row>
+    <ion-col >
+      <ion-item >
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/demos/api/avatar/avatar.svg" />
+        </ion-avatar>
+        <br>
+        <br>
+        <ion-text >
+          <h2>Nombre usuario</h2>
+        </ion-text>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header">
+        <ion-icon name="person"></ion-icon>
+        <ion-label>Perfil de usuario</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Nombre de usuario
+      </div>
+      <div class="ion-padding" slot="content">
+        Correo electronico
+      </div>
+      <div class="ion-padding" slot="content">
+        Telefono
+      </div>
+      <div class="ion-padding" slot="content">
+        Contraseña
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header">
+        <ion-icon name="shield"></ion-icon>
+        <ion-label>Seguridad</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header">
+        <ion-icon name="notifications"></ion-icon>
+        <ion-label>Notificaciones</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-label>Notificaciones integradas</ion-label>
+        <ion-toggle slot="end"></ion-toggle>
+        <br>
+        <ion-label>Notificaciones de sistema</ion-label>
+        <ion-toggle slot="end"></ion-toggle>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="four">
+      <ion-item slot="header">
+        <ion-icon name="accessibility"></ion-icon>
+        <ion-label>Accesibilidad</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-label>Texto de alto contraste</ion-label>
+        <ion-toggle slot="end"></ion-toggle>
+        <br>
+        <ion-label>Modo oscuro</ion-label>
+        <ion-toggle slot="end"></ion-toggle>
+        <br>
+        <br>
+        <ion-label>Tamaño fuente</ion-label>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="five">
+      <ion-item slot="header">
+        <ion-icon name="language"></ion-icon>
+        <ion-label>Idioma</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Idioma
+      </div>
+    </ion-accordion>
+    <ion-accordion value="six">
+      <ion-item slot="header">
+        <ion-icon name="help"></ion-icon>
+        <ion-label>Soporte</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Preguntas frecuentes
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>
